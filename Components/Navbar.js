@@ -9,11 +9,13 @@ const Navbar = () => {
   // console.log("berak", NAV_LINKS)
   return (
     // border-2 border-red-500
-    <nav className=" flexBetween max-container padding-container relative z-30 py-5">
+    <nav className=" flexCenter max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} />
+        {/* <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} /> */}
+
+        <h1 className="font-bold text-green-600 text-xl">CEMARA EDUCATION</h1>
       </Link>
-      <ul className="hidden h-full gap-12 lg:flex ">
+      {/* <ul className="hidden h-full gap-12 lg:flex ">
         {NAV_LINKS.map((link) => {
           return (
             <Link
@@ -42,7 +44,7 @@ const Navbar = () => {
         width={32}
         height={32}
         className="inline-block cursor-pointer lg:hidden"
-      />
+      /> */}
     </nav>
   );
 };
