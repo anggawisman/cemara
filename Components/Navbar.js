@@ -11,7 +11,7 @@ const Navbar = () => {
     // border-2 border-red-500
     <nav className=" flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/logocemara_5.svg" alt="logo" width={150} height={29} />
+        <Image src="/logocemara.svg" alt="logo" width={150} height={29} />
       </Link>
       <ul className="hidden h-full gap-12 lg:flex ">
         {NAV_LINKS.map((link) => {
