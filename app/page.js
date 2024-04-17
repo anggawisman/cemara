@@ -9,10 +9,10 @@ import Sticky from "@/Components/Sticky";
 export default function Home() {
   return (
     <>
-      <ComingSoon />
-      {/* <Hero />
+      {/* <ComingSoon /> */}
+      <Hero />
       <Service />
-      <Sticky /> */}
+      {/* <Sticky /> */}
       {/* <Destination /> */}
       {/* <></> */}
     </>

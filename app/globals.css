@@ -130,11 +130,15 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 sm:-right-[79px];
   }
 
   .card-service {
-    @apply  bg-pattern-2 bg-cover bg-center bg-no-repeat;
+    @apply  bg-pattern-2 bg-cover bg-center bg-no-repeat ;
+  }
+  
+  .banner-hero {
+    @apply  bg-banner-hero bg-cover bg-center bg-no-repeat ;
   }
 
   /* Camp */
