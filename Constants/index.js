@@ -94,7 +94,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Admin Officer", value: "0821 9906 7788" },
+    { label: "Admin Officer", value: "+62 821 9906 7788" },
     { label: "Email Officer", value: "admin@cemaraeducation.com" },
   ],
 };
