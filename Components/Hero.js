@@ -80,7 +80,7 @@ const Hero = () => {
       </div> */}
 
       <div className="flex flex-col max-lg:gap-4 gap-24 flex-1">
-        <div className="relative z-20 flex w-[426px] flex-col gap-8 rounded-3xl bg-white drop-shadow-md px-7 py-4">
+        {/* <div className="relative z-20 flex w-[426px] flex-col gap-8 rounded-3xl bg-white drop-shadow-md px-7 py-4">
           <div>
             <div className="flexBetween gap-2  ">
               <div className="flex-none">
@@ -103,9 +103,6 @@ const Hero = () => {
         <div className="relative ">
           <div className="xl:w-32 absolute xl:right-0 z-20 lg:flex w-auto flex-col gap-8 rounded-3xl bg-white drop-shadow-md px-7 py-4">
             <div className="flexBetween gap-2 ">
-              {/* <div className="flex-none">
-                <Image src={person2} style={{ width: "100%" }} />
-              </div> */}
               <div className="grow flex flex-col gap-2 text-md">
                 <div className=" flexBetween">
                   <p className=" font-bold block text-green-50">10+ Courses</p>
@@ -114,7 +111,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="max-lg:hidden relative ">
           <div className="xl:w-96 xl:h-auto absolute xl:left-8 z-21 lg:flex w-auto flex-col gap-8 rounded-3xl bg-white drop-shadow-md px-7 py-4 ">
             {/* <div className=""> */}
