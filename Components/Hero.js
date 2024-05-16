@@ -32,7 +32,7 @@ const Hero = () => {
             icon="/calendar.svg"
             title="Talk to our counselor"
             variant="btn_green"
-            href="https://wa.me/6282199067788?text=I%20want%20consultation%20for%20further%20study%20abroad%20"
+            href="https://wa.me/6282199067788?text=I%20want%20a%20free%20consultation%20about%20my%20planning%20to%20study%20abroad"
           />
           <Button
             type="button"
