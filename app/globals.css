@@ -134,7 +134,7 @@ body {
   }
 
   .card-service {
-    @apply  bg-pattern-2 bg-cover bg-center bg-no-repeat ;
+    @apply bg-cover bg-center bg-no-repeat ;
   }
   
   .banner-hero {

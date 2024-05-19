@@ -2,9 +2,8 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./Components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./layouts/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -35,9 +34,14 @@ module.exports = {
         "bg-img-2": "url('/img-2.png')",
         "feature-bg": "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
-        "pattern-2": "url('/mapbg.svg')",
+        "pattern-2": "url('/hero-new.svg')",
         card: "url('/boat.png')",
         "banner-hero": "url('/banner-global-2.webp')",
+        "visa-app": "url('/undraw_product_teardown_re_m1pc.svg')",
+        health: "url('/health.svg')",
+        form: "url('/form.svg')",
+        consult: "url('/consult.svg')",
+        accommodation: "url('/accommodation.svg')",
       },
       screens: {
         xs: "400px",
