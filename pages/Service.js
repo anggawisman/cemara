@@ -17,16 +17,18 @@ const Service = () => {
 
       <div className="flexBetween flex-wrap gap-8">
         {PROGRAMS.map((data, idx) => {
-          // console.log({ idx });
+          const nameBg = "bg-" + data.img;
+          console.log({ nameBg });
+
           return (
-            <Card
-              className={""}
-              bg={data.img}
-              title={data.title}
-              body={data.body}
-              button={data.button}
-              variant="blabla"
-            />
+            <div
+              className={`bg-white shadow-xl p-8 rounded-3xl card-service max-w-72 bg- ${nameBg}`}
+            >
+              <h2 className="font-bold text-xl text-green-50">{data.title}</h2>
+              <p className="py-5">{data.body}</p>
+              <div className="min-h-40"></div>
+              <button className={`${"blabla"}`}>{data.button}</button>
+            </div>
           );
         })}
       </div>
