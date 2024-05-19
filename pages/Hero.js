@@ -1,10 +1,10 @@
 // import React from "react";
 import Image from "next/image";
-import Button from "../components/Button";
+import Button from "@/components/Button";
 
-import person from "../public/person-1.png";
-import person2 from "../public/person-2.png";
-import bannerHero from "../public/undraw_education_f8ru.svg";
+import person from "@/public/person-1.png";
+import person2 from "@/public/person-2.png";
+import bannerHero from "@/public/undraw_education_f8ru.svg";
 
 const Hero = () => {
   return (

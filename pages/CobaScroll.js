@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import ScrollSlider from "@/components/ScrollSlider";
+// import ScrollSlider from "@/components/ScrollSlider";
 
 // import { SCROLL } from "@/Constants";
 

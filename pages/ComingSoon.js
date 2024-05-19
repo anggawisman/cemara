@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import maintenance from "../public/maintenance.svg";
-import constraction from "../public/constraction.svg";
-import Button from "../components/Button";
+import maintenance from "@/public/maintenance.svg";
+import constraction from "@/public/constraction.svg";
+import Button from "@/components/Button";
 
 const ComingSoon = () => {
   return (
