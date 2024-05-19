@@ -9,10 +9,7 @@ const Navbar = () => {
   // console.log("berak", NAV_LINKS)
   return (
     // border-2 border-red-500
-    <nav className=" flexBetween max-container padding-container relative z-30 py-5">
-      <Link href="/">
-        <Image src="/logocemara.svg" alt="logo" width={150} height={29} />
-      </Link>
+    <nav className=" flexBetween max-container padding-container relative z-30 py-5 mb-10">
       <ul className="hidden h-full gap-12 lg:flex ">
         {NAV_LINKS.map((link) => {
           return (
@@ -26,6 +23,10 @@ const Navbar = () => {
           );
         })}
       </ul>
+
+      <Link href="/">
+        <Image src="/logonavbar.svg" alt="logo" width={200} height={29} />
+      </Link>
 
       <div className="lg:flexCenter hidden">
         <Button
