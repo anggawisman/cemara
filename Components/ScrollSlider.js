@@ -34,7 +34,7 @@ const ScrollSlider = ({ images }) => {
 
   return (
     <div ref={containerRef} className="flex">
-      {images.map((image, index) => (
+      {images?.map((image, index) => (
         <div key={index} className="w-64 flex-shrink-0">
           <p>{image}</p>
           <img src={image} alt={`Image ${index}`} className=" h-auto" />
