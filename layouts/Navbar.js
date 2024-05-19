@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS_LEFT, NAV_LINKS_RIGHT } from "@/Constants";
-import Button from "../components/Button";
+import Button from "../Components/Button";
 
 const Navbar = () => {
   // console.log("berak", NAV_LINKS)
