@@ -1,4 +1,5 @@
 "use client";
+import axios from "axios";
 // import React from "react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -8,36 +9,38 @@ function Table(props) {
 
   const [universities, setUniversities] = useState([]);
 
-  useEffect(() => {
-    getData();
-  }, []);
+  //   useEffect(() => {
+  //     console.log("TAIK try");
+  //     getData();
+  //   }, []);
 
-  const getData = () => {
-    const myHeaders = new Headers();
-    myHeaders.append(
-      "Cookie",
-      "_cfuvid=3MlSjZb3_x5EbRnFvzmLeoqnXkuoBLUefJzzydjR1mw-1716105665233-0.0.1.1-604800000"
-    );
+  //   const getData = async () => {
+  //     try {
+  //       const BASE_URL = "https://www.topuniversities.com/rankings";
+  //       const axiosInstance = axios.create({ baseURL: BASE_URL });
 
-    const formData = new FormData();
-    formData.append("nid", 3897789);
-    formData.append("items_per_page", 10);
-    formData.append("tab", "indicators");
-    formData.append("region", "Oceania");
-    formData.append("countries", "");
+  //       let config = {
+  //         method: "get",
+  //         maxBodyLength: Infinity,
+  //         url: "https://www.topuniversities.com/rankings/endpoint?nid=3897789&page=&items_per_page=10&tab=indicators&region=Oceania&countries=&cities=&search=&star=&sort_by=&order_by=&program_type=",
+  //         headers: {
+  //           Cookie:
+  //             "_cfuvid=3MlSjZb3_x5EbRnFvzmLeoqnXkuoBLUefJzzydjR1mw-1716105665233-0.0.1.1-604800000",
+  //         },
+  //       };
 
-    const requestOptions = {
-      method: "GET",
-      headers: myHeaders,
-      redirect: "follow",
-      body: formData,
-    };
-
-    fetch(`https://www.topuniversities.com/rankings/endpoint?`, requestOptions)
-      .then((response) => response.text())
-      .then((result) => console.log(result))
-      .catch((error) => console.error(error));
-  };
+  //       await axiosInstance
+  //         .request(config)
+  //         .then((response) => {
+  //           console.log("TAIK", JSON.stringify(response.data));
+  //         })
+  //         .catch((error) => {
+  //           console.log("TAIK", error);
+  //         });
+  //     } catch {
+  //       console.log("TAIK ANYING LAH");
+  //     }
+  //   };
 
   return (
     <div className="">
@@ -47,7 +50,10 @@ function Table(props) {
           <thead>
             <tr>
               {props.heads?.map((head) => {
-                <th className="text-left text-white border-b pb-3">{head}</th>;
+                getData();
+                return (
+                  <th className="text-left text-white border-b pb-3">{head}</th>
+                );
               })}
             </tr>
           </thead>

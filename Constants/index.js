@@ -138,3 +138,77 @@ export const SOCIALS = {
     { href: "", icon: "/wordpress.svg" },
   ],
 };
+export const STUDY_ABROAD = [
+  {
+    title: "Study in Australia",
+    country: "Australia",
+    body: "Australia is a top destination for international students seeking high-quality education. students can choose from a wide range of programs, from high-rank universities in the world to vocational education and training (VET) for practical skill development. The country offers a diverse cultural environment and a strong economy, providing students with excellent work opportunities during and after their studies. Additionally, Australia's stunning landscapes, with cities located near the beach, offer a breathtaking backdrop to student life. For those coming from Indonesia, the proximity between the two countries makes travel easier and more affordable. Experience Australia's relaxed lifestyle, beautiful beaches, and vibrant cities while pursuing your educational goals.",
+    information: [
+      { key: "Intake", value: "February, July" },
+      { key: "Tuition Fee", value: "Vary (20,000 - 40,000 AUD)" },
+      {
+        key: "Available Scholarship",
+        value:
+          "Indonesian Students (LPDP, AAS, Partial Scholarship from the Universities)",
+      },
+      { key: "Accepted Language Tests", value: "IELTS, PTE, TOEFL" },
+    ],
+  },
+  {
+    title: "Study in United Kingdom",
+    country: "UK",
+    body: "The United Kingdom is the home to some of the world’s most prestigious universities and welcomes students from all over the world.  Studying in the UK  provides international students with a unique opportunity to pursue a world-class education in a multicultural environment. With prestigious universities, students can choose from a wide range of academic programs, including specialized degrees in emerging fields. UK universities place a strong emphasis on practical experience, ensuring students are well-prepared for their future careers. The UK’s multicultural society and extensive public transportation system make it easy for students to explore the country and visit other European countries to connect with people from different backgrounds. Beyond the classroom, students can immerse themselves in the UK’s rich arts and culture scene, with numerous museums, galleries, theatres, and music venues to discover. Studying in the UK provides students with a well-rounded education and a chance to develop global perspectives, setting them up for success in the future.",
+    information: [
+      { key: "Intake", value: "February, July" },
+      { key: "Tuition Fee", value: "Vary (17,000 – 23,000 per year)" },
+      {
+        key: "Available Scholarship",
+        value:
+          "Indonesian Students (LPDP, Chevening, GREAT Scholarships, British Council Women in STEM Scholarships, Partial Scholarships from the Universities)",
+      },
+      { key: "Accepted Language Tests", value: "IELTS, PTE, TOEFL" },
+    ],
+  },
+  {
+    title: "Study in Canada",
+    country: "Canada",
+    body: "Studying in Canada offers international students a unique experience. With its high-quality education, welcoming environment and as a bilingual country with English and French as official languages, studying in Canada offers students the opportunity to learn or improve their language skills. International students can choose to go to universities or if they are more interested in applied education and hands-on learning they can go to colleges, institutes, or polytechnics. Canada boasts stunning natural landscapes, from the Rocky Mountains to Niagara Falls, offering students ample opportunities to explore the outdoors during their time in the country.",
+    information: [
+      { key: "Intake", value: "-" },
+      { key: "Tuition Fee", value: "-" },
+      {
+        key: "Available Scholarship",
+        value: "-",
+      },
+      { key: "Accepted Language Tests", value: "-" },
+    ],
+  },
+  {
+    title: "Study in United State",
+    country: "US",
+    body: "COMING SOON",
+    information: [
+      { key: "Intake", value: "-" },
+      { key: "Tuition Fee", value: "-" },
+      {
+        key: "Available Scholarship",
+        value: "-",
+      },
+      { key: "Accepted Language Tests", value: "-" },
+    ],
+  },
+  {
+    title: "Study in New Zealand",
+    country: "New Zealand",
+    body: "COMING SOON",
+    information: [
+      { key: "Intake", value: "-" },
+      { key: "Tuition Fee", value: "-" },
+      {
+        key: "Available Scholarship",
+        value: "-",
+      },
+      { key: "Accepted Language Tests", value: "-" },
+    ],
+  },
+];
