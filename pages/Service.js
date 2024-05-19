@@ -1,6 +1,6 @@
 // import React from "react";
 import Image from "next/image";
-import Card from "@/components/Card";
+import Card from "../components/Card";
 import { PROGRAMS } from "@/Constants";
 
 // STEPS to ABROAD
@@ -20,6 +20,8 @@ const Service = () => {
           // console.log({ idx });
           return (
             <Card
+              className={""}
+              bg={data.img}
               title={data.title}
               body={data.body}
               button={data.button}

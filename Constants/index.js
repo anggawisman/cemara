@@ -1,8 +1,19 @@
 // NAVIGATION
-export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Home" },
+export const NAV_LINKS_LEFT = [
+  // { href: "/", key: "home", label: "Home" },
   { href: "/", key: "studyAbroad", label: "Study Abroad" },
+  { href: "/", key: "events", label: "Upcoming Events" },
+  { href: "/", key: "scholarships", label: "Scholarships" },
+  // { href: "/", key: "aboutUs ", label: "About Us" },
+  // { href: "/", key: "contact_us", label: "Contact Us" },
+];
+export const NAV_LINKS_RIGHT = [
+  // { href: "/", key: "home", label: "Home" },
+  // { href: "/", key: "studyAbroad", label: "Study Abroad" },
+  { href: "/", key: "nothing", label: "" },
   { href: "/", key: "aboutUs ", label: "About Us" },
+  // { href: "/", key: "events", label: "Upcoming Events" },
+  // { href: "/", key: "scholarships", label: "Scholarships" },
   // { href: "/", key: "contact_us", label: "Contact Us" },
 ];
 
