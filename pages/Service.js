@@ -17,12 +17,23 @@ const Service = () => {
 
       <div className="flexBetween flex-wrap gap-8">
         {PROGRAMS.map((data, idx) => {
-          const nameBg = "bg-" + data.img;
-          console.log({ nameBg });
+          const nameBg = data.img;
 
           return (
             <div
-              className={`bg-white shadow-xl p-8 rounded-3xl card-service max-w-72 bg- ${nameBg}`}
+              className={`bg-white shadow-xl p-8 rounded-3xl card-service max-w-72 ${
+                nameBg == "accommodation"
+                  ? "bg-accommodation"
+                  : nameBg == "health"
+                  ? "bg-health"
+                  : nameBg == "form"
+                  ? "bg-form"
+                  : nameBg == "consult"
+                  ? "bg-consult"
+                  : nameBg == "visa-app"
+                  ? "bg-visa-app"
+                  : ""
+              }`}
             >
               <h2 className="font-bold text-xl text-green-50">{data.title}</h2>
               <p className="py-5">{data.body}</p>
