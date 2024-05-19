@@ -5,6 +5,7 @@ import Destination from "@/Components/Destination";
 import Hero from "@/Components/Hero";
 import Service from "@/Components/Service";
 import Sticky from "@/Components/Sticky";
+import { useEffect, useState } from "react";
 
 export default function Home() {
     useEffect(() => {
