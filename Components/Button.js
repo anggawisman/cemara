@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 function Button(props) {
-  console.log({ props });
+  // console.log({ props });
   return (
     <a
       className={`${props.variant} ${props.className} flexCenter gap-3 rounded-full border whitespace-nowrap`}

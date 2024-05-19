@@ -25,7 +25,7 @@ const Navbar = () => {
       </ul>
 
       <Link href="/">
-        <Image src="/logonavbar.svg" alt="logo" width={200} height={29} />
+        <Image src="/logonavbar-new.svg" alt="logo" width={250} height={29} />
       </Link>
 
       {/* <div className="lg:flexCenter hidden">

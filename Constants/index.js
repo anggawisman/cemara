@@ -96,9 +96,11 @@ export const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
-      { href: "/", key: "home", label: "Home" },
       { href: "/", key: "studyAbroad", label: "Study Abroad" },
+      { href: "/", key: "events", label: "Upcoming Events" },
+      { href: "/", key: "scholarships", label: "Scholarships" },
       { href: "/", key: "aboutUs ", label: "About Us" },
+      { href: "/", key: "contact_us", label: "Contact Us" },
     ],
   },
   // {
@@ -112,16 +114,27 @@ export const FOOTER_CONTACT_INFO = {
   links: [
     { label: "Admin Officer", value: "+62 821 9906 7788" },
     { label: "Email Officer", value: "admin@cemaraeducation.com" },
+    {
+      label: "Address",
+      value:
+        "BSD Green Office Park 1, Jl. BSD Green Office Park Lantai 6, Sampora, Kec. Cisauk, Kabupaten Tangerang, Banten 15345",
+    },
   ],
 };
 
 export const SOCIALS = {
   title: "Social",
   links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
+    {
+      href: "https://www.facebook.com/cemara.education?mibextid=ZbWKwL",
+      icon: "/facebook.svg",
+    },
+    {
+      href: "https://www.instagram.com/cemara.education?igsh=MW12c2I3ZjFwODl1Zw==",
+      icon: "/instagram.svg",
+    },
+    { href: "", icon: "/twitter.svg" },
+    { href: "", icon: "/youtube.svg" },
+    { href: "", icon: "/wordpress.svg" },
   ],
 };

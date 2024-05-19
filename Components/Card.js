@@ -1,7 +1,7 @@
 // import React from "react";
 
 const Card = (props) => {
-  console.log(`bg-${props.bg}`);
+  // console.log(`bg-${props.bg}`);
   return (
     <div
       className={`bg-white shadow-xl p-8 rounded-3xl bg-${props.bg} card-service max-w-72 ${props.className}`}
