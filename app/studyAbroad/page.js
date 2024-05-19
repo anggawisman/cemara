@@ -1,6 +1,6 @@
 // import React from "react";
 import Image from "next/image";
-import Article from "@/components/Article";
+import Article from "../../components/Article";
 import { STUDY_ABROAD } from "@/Constants";
 
 const StudyAbroad = () => {
