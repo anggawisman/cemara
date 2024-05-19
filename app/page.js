@@ -1,15 +1,17 @@
 // import Image from "next/image";
 
-import ComingSoon from "@/Components/ComingSoon";
-import Destination from "@/Components/Destination";
-import Hero from "@/Components/Hero";
-import Service from "@/Components/Service";
-import Sticky from "@/Components/Sticky";
+import ComingSoon from "@/pages/ComingSoon";
+import Destination from "@/pages/Destination";
+import Hero from "@/pages/Hero";
+import Service from "@/pages/Service";
+import Sticky from "@/components/Sticky";
+import CobaScroll from "@/pages/CobaScroll";
 
 export default function Home() {
   return (
     <>
       {/* <ComingSoon /> */}
+      {/* <CobaScroll /> */}
       <Hero />
       <Service />
       {/* <Sticky /> */}

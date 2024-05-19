@@ -43,6 +43,14 @@ export const PEOPLE_URL = [
   "/person-4.png",
 ];
 
+// SCROLL SLIDER
+export const SCROLL = [
+  "/person-1.png",
+  "/person-2.png",
+  "/person-3.png",
+  "/person-4.png",
+];
+
 // FEATURES SECTION
 export const FEATURES = [
   {

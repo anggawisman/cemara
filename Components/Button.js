@@ -5,7 +5,7 @@ function Button(props) {
   // console.log({ props });
   return (
     <a
-      className={`${props.variant} flexCenter gap-3 rounded-full border  bold-16 whitespace-nowrap`}
+      className={`${props.variant} flexCenter gap-3 rounded-full border bold-16 whitespace-nowrap`}
       type={props.type}
       href={props.href}
       target={props.href !== "/" ? "_blank" : ""}
