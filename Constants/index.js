@@ -12,26 +12,31 @@ export const PROGRAMS = [
     title: "Counselling",
     body: "Here we can discuss your plan, and where you want to study, we will talk about the countries, universities and programs and help you find the most suitable one for you.",
     button: "Learn more",
+    img: "consult",
   },
   {
     title: "University applications",
     body: "After counselling sessions with our team, in this step, we will assist you with your university applications. So, you can relax and get an offer from your dream university.",
     button: "Learn more",
+    img: "form",
   },
   {
     title: "Student accommodation",
     body: "Our team will assist you in finding accommodation that matches your needs, ensuring your student housing is secured well in advance of your departure overseas.",
     button: "Learn more",
+    img: "accommodation",
   },
   {
     title: "Student health insurance",
     body: "Every international student must have Student health insurance, we will assist you on this matter as well.",
     button: "Learn more",
+    img: "health",
   },
   {
     title: "Visa applications",
     body: "We will help you with your visa application. Our team guides you through the process, making it easy and stress-free.",
     button: "Learn more",
+    img: "visa-app",
   },
 ];
 

@@ -112,13 +112,11 @@ const Hero = () => {
             </div>
           </div>
         </div> */}
-        <div className="max-lg:hidden relative ">
+        {/* <div className="max-lg:hidden relative ">
           <div className="xl:w-96 xl:h-auto absolute xl:left-8 z-21 lg:flex w-auto flex-col gap-8 rounded-3xl bg-white drop-shadow-md px-7 py-4 ">
-            {/* <div className=""> */}
             <Image src={bannerHero} style={{ width: "100%" }} />
-            {/* </div> */}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -20,6 +20,8 @@ const Service = () => {
           // console.log({ idx });
           return (
             <Card
+              className={""}
+              bg={data.img}
               title={data.title}
               body={data.body}
               button={data.button}
