@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS_LEFT = [
   // { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "studyAbroad", label: "Study Abroad" },
+  { href: "/studyAbroad", key: "studyAbroad", label: "Study Abroad" },
   { href: "/", key: "events", label: "Upcoming Events" },
   { href: "/", key: "scholarships", label: "Scholarships" },
   // { href: "/", key: "aboutUs ", label: "About Us" },
@@ -96,7 +96,7 @@ export const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
-      { href: "/", key: "studyAbroad", label: "Study Abroad" },
+      { href: "/studyAbroad", key: "studyAbroad", label: "Study Abroad" },
       { href: "/", key: "events", label: "Upcoming Events" },
       { href: "/", key: "scholarships", label: "Scholarships" },
       { href: "/", key: "aboutUs ", label: "About Us" },
