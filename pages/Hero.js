@@ -1,6 +1,6 @@
 // import React from "react";
 import Image from "next/image";
-import Button from "../components/Button";
+import Button from "@/Components/Button";
 
 import person from "../public/person-1.png";
 import person2 from "../public/person-2.png";
@@ -9,9 +9,9 @@ import bannerHero from "../public/undraw_education_f8ru.svg";
 const Hero = () => {
   return (
     <section className="max-container padding-container flex flex-col gap-10 py-5 pb-32 md:gap-18  xl:flex-row ">
-      <div className="hero-map" />
+      <div className="hero-map max-md:opacity-30" />
 
-      <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
+      <div className="relative z-10 flex flex-1 flex-col xl:w-1/2">
         {/* <Image src="/camp.svg" alt="camp" width={50} height={50} /> */}
         <h1 className="bold-52 lg:bold-88">Reach Your Dream With Cemara</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px] md:max-w-[520px]">

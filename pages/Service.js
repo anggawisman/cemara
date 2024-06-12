@@ -1,6 +1,6 @@
 // import React from "react";
 import Image from "next/image";
-import Card from "../components/Card";
+import Card from "@/Components/Card";
 import { PROGRAMS } from "@/Constants";
 
 // STEPS to ABROAD
@@ -15,7 +15,7 @@ const Service = () => {
         </h1>
       </div>
 
-      <div className="flexBetween flex-wrap gap-8">
+      <div className="flexBetween flex-wrap gap-8 z-30">
         {PROGRAMS.map((data, idx) => {
           // console.log({ idx });
           return (
