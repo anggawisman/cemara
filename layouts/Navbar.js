@@ -1,5 +1,7 @@
+'use client'
+ 
+import { sendGTMEvent } from '@next/third-parties/google'
 // import React from 'react'
-
 import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS_LEFT, NAV_LINKS_RIGHT } from "@/Constants";
@@ -17,6 +19,7 @@ const Navbar = () => {
               href={link.href}
               key={link.key}
               className=" regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+              onClick={() => sendGTMEvent({ event: 'buttonClicked', value: link.label })}
             >
               {link.label}
             </Link>

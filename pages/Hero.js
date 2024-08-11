@@ -1,3 +1,7 @@
+'use client'
+ 
+import { sendGTMEvent } from '@next/third-parties/google'
+
 // import React from "react";
 import Image from "next/image";
 import Button from "../Components/Button";
@@ -33,13 +37,15 @@ const Hero = () => {
             title="Talk to our counselor"
             variant="btn_green"
             href="https://wa.me/6282199067788?text=I%20want%20a%20free%20consultation%20about%20my%20planning%20to%20study%20abroad"
-          />
+            onClick={() => sendGTMEvent({ event: 'buttonClicked', value: 'WhatsApp' })}
+            />
           <Button
             type="button"
             title="Find programs"
             icon="/play.svg"
             variant="btn_white_text"
             href="/"
+            onClick={() => sendGTMEvent({ event: 'buttonClicked', value: 'findProgram' })}
           />
         </div>
       </div>
