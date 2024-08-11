@@ -1,6 +1,6 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google'
 import Navbar from "@/layouts/Navbar";
 import Footer from "@/layouts/Footer";
 
@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className="">
         <Navbar />
         <main className=" relative overflow-hidden">{children}</main>
+        <GoogleAnalytics gaId="G-CJ8LNF1WKR" />
         <Footer />
       </body>
     </html>
